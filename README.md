@@ -8,6 +8,11 @@ NLP (word processing semnitet) App Project
 ## what i learned 
 i learned how to deal with rest api and to exchange data between client side and server side and how to set a server and many things like node and express and how to deal with package.json and how to deal with sass files and i learned problem soliving .
 
+## what is it?
+Sentiment Analysis is MeaningCloud's solution for performing a detailed multilingual sentiment analysis of texts from different sources.
+
+It identifies the positive, negative, neutral polarity in any text, including comments in surveys and social media. It also extracts sentiment at the document or aspect-based level. In order to do this, the local polarity of the different sentences in the text is identified and the relationship between them evaluated, resulting in a global polarity value for the whole text.
+
 
 
 

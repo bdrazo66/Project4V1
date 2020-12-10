@@ -1,5 +1,6 @@
 //import { checkForName } from './js/nameChecker'
 import { handleSubmit } from './js/formHandler';
+//import { makeRequest } from '../server/index';
 
 import './styles/base.scss';
 import './styles/footer.scss';
@@ -11,9 +12,10 @@ const submit = document.querySelector('.submit');
 submit.addEventListener('click', e => {
 
     handleSubmit(e);
+    //makeRequest();
 
 
-    
+
 
 });
 

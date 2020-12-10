@@ -4,6 +4,9 @@ const HtmlWebPackPlugin = require("html-webpack-plugin")
 const common = require('./webpack.common');
 const { merge } = require('webpack-merge');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const { GenerateSW } = require('workbox-webpack-plugin');
+
+//const WorkboxPlugin = require("workbox-webpack-plugin");
 
 module.exports = merge(common, {
     entry: './src/client/index.js',
@@ -30,5 +33,8 @@ module.exports = merge(common, {
             filename: "./index.html",
         }),
         new MiniCssExtractPlugin({ filename: 'main.[contenthash].css' }),
+        new GenerateSW()
+
+        //new WorkboxPlugin.GenerateSW(),
     ],
 });
