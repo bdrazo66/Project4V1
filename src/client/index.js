@@ -1,6 +1,6 @@
 //import { checkForName } from './js/nameChecker'
 import { handleSubmit } from './js/formHandler';
-//import { makeRequest } from '../server/index';
+
 
 import './styles/base.scss';
 import './styles/footer.scss';
